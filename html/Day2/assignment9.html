@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+ </head>
+ <body>
+
+    <h2>Registration Form</h2>
+
+    <form action="/action.php">
+        <label for="name">Name:</label><br>
+        <input type="text" >
+        <br><br>
+
+        <lable for="email">Email:</lable><br>
+        <input type="email" >
+        <br><br>
+
+        <lable for="password">Password:</lable><br>
+        <input type="password" >
+        <br><br>
+
+
+       <label for="Country">Country:</label><br>
+       <select id="Country" name="Country">
+
+       <option value="india">India</option>
+       <option value="USA">USA</option>
+       <option value="UAE">UAE</option>
+
+       </select><br><br><br>
+
+
+       <label for="Gender">Gender:</label><br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="Male">Male</label><br>
+
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="Gender" value="other">
+        <label for="other">Other</label><br><br>
+
+       <input type="submit" value="singn up">
+
+    </form>
+
+ </body>
+ </html>

@@ -1,0 +1,21 @@
+.loader{
+
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid black;
+    border-top: 20px solid greenyellow;
+    animation: RotateAnimate 1s ease-in 0s infinite normal;
+   
+}
+@keyframes RotateAnimate{
+    
+    from{
+     transform: rotate(0deg);
+
+    }
+    to{
+      transform: rotate(360deg);
+    }
+}

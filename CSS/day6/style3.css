@@ -1,0 +1,22 @@
+.parent{
+    font-size: 20px;
+    color: rgb(68, 255, 10);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.parent span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100;
+}
+th,td {
+    border: 1px solid black;  /*not inherited*/
+    padding: 9xp;
+}

@@ -1,0 +1,53 @@
+<!-- Assignment: CSS Inheritance*
+
+*Objective*: Understand which CSS properties are inherited by child elements.
+
+*Task*:
+
+1. Create a parent div with some child elements (h2, p, span).
+2. Apply font-size and color on parent.
+3. Add border on parent and notice that it is *not inherited*.
+4. Add a table and test if styles are inherited.
+5. Write 3 inherited properties and 3 non-inherited ones.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+ <div class="parent" >
+    <h2>Cascating sheets</h2>
+    <p>
+        CSS is use to style and layout web page, controlling the APPearance of <span>HTML</span> elements. It allows developers to create visually appealing designs and ensure a consistent look across a website.
+    </p>
+
+      <table>
+       <tr>
+           <th>property</th>
+           <th>inherited?</th>
+       </tr> 
+       
+       <tr>
+        <td>font-size</td>
+        <td>yes</td>
+       </tr>
+       <tr>
+        <td>color</td>
+        <td>yes</td>
+       </tr>
+       <tr>
+        <td>border</td>
+        <td>No</td>
+       </tr>
+
+    </table>
+
+ </div>   
+    
+</body>
+</html>

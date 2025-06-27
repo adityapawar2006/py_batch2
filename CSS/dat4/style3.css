@@ -1,0 +1,56 @@
+body {
+  display:flex;
+  justify-content: space-around;
+ margin-right: 40px;
+  background-color: #2600ff;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+ 
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+
+.box1{
+
+border-width: 10px;
+border-style: solid;
+border-color: rgb(255, 0, 0);
+}
+
+.box2{
+
+border-width: 10px;
+border-style: dashed;
+border-color: greenyellow;
+}
+.box3{
+border-width: 10px;
+border-style: dotted;
+border-color: turquoise;
+
+}
+.box4{
+border-width: 10px;
+border-style: double;
+border-color: turquoise;
+border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+ 

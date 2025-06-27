@@ -1,0 +1,21 @@
+.lost-box{
+    margin: 3rem 1.5rem;
+    width: 25vw;
+    height: 40vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+}
